@@ -1,47 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<link rel="stylesheet" href="styles.css">
+	<style>
+        body{
+            margin: 0;
+        }
+    ul{
+	    display:flex;
+        background-color: black;
+        padding: 20px;
+    }
+   a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 1.5rem;
+   }
+   h{
+    font-size: 1.5rem;
+   }
+    </style>
 </head>
 
 <body>
-    <header>3 random audios</header>
+	<!-- the entire body must be written by student -->
+	<nav>
+    <ul>
+       <li> <a href="">Home</a></li>
+       <li><a href="">about us</a></li>
+       <li><a href="">contact us</a></li>
+    </ul>
+   </nav>
+   <h>3 random audios above the audios.</h>
+    <br>
+   <audio controls >
+    <source src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3" type="audio/mpeg" >
+    </audio>
+    <br>
+    <audio controls>
+    <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg" >
+     </audio>
+     <br>
+    <audio controls >
+    <source src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3." type="audio/mpeg" >
+  </audio>
+    <script type="text/javascript" src="./script.js">
+</script>
 
-    <nav>
-        <ul>
-            <li>
-                <a href="#">Home</a>
-            </li>
-            <li>
-                <a href="#">About us</a>
-            </li>
-            <li>
-                <a href="#">Contact us</a>
-            </li>
-        </ul>
-    </nav>
-    <main>
-        <audio controls>
-            <source
-                src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3"
-                type="audio/mpeg">
-
-        </audio>
-
-        <audio controls>
-            <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg"
-                type="audio/mpeg">
-        </audio>
-
-        <audio controls>
-            <source src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3"
-                type="audio/mpeg">
-        </audio>
-    </main>
 </body>
 
 </html>
